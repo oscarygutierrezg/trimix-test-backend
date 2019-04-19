@@ -1,12 +1,14 @@
 package ar.com.trimix.backendtest.persistence.model;
 
-import javax.persistence.*;
-
-import com.fasterxml.jackson.annotation.JsonIdentityReference;
-
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity(name="persona")
 public class Persona implements Serializable {
