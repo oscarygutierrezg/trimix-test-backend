@@ -166,7 +166,9 @@
 				<version>3.2.2</version>
 				<configuration>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
+					<skipTests>true</skipTests>
 				</configuration>
+
 			</plugin>
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
